@@ -1,0 +1,42 @@
+{
+    "name": "conversiones panaderia",
+    "short_name": "convercion pana.",
+    "background_color": "#2c2",
+    "theme_color": "yellow",
+    "orientation": "portratil",
+    "start_url": "./?utm=homescreen",
+    "scope": "./",
+    "lang": "es_Gt",
+    "icons":[
+        {
+            "src":"image/logo_512.png",
+            "sizes": "512x512",
+            "type": "image.png"
+        },
+        {
+            "src":"image/logo_348.png",
+            "sizes": "348x348",
+            "type": "image.png"
+        },
+        {
+            "src":"image/logo_256.png",
+            "sizes": "256x256",
+            "type": "image.png"
+        },
+        {
+            "src":"image/logo_144.png",
+            "sizes": "144x144",
+            "type": "image.png"
+        },
+        {
+            "src":"image/logo_128.png",
+            "sizes": "128x128",
+            "type": "image.png"
+        },
+        {
+            "src":"image/logo_64.png",
+            "sizes": "64x64",
+            "type": "image.png"
+        }
+    ]
+}

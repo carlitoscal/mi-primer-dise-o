@@ -1,0 +1,178 @@
+body{
+    background-color: red;
+}
+
+.container{
+    background-color: rgb(99, 99, 167);
+    font-size: 1rem;
+    width: 500px;  
+    position: fixed;
+
+}
+header{
+    background-color: rgb(47, 109, 180);
+}
+
+h1{
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+figure{
+
+    margin-left: 40%;
+    width: 20%;
+    text-align: center
+
+    
+}
+.labe{
+    background-color: aquamarine;
+    border: solid 1px ;
+    padding: 3px;
+    
+}
+label{
+    margin: 2rem;
+    border-radius: 6px;
+    
+}
+input
+{
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 7px;
+    border-radius: 50%;
+    
+}
+.sal{
+ 
+   
+   
+    margin-left: 53px;
+}
+
+.levaduras{
+    margin-left: -19px;
+}
+.ar, .harinas{
+    margin-left: 45%;
+}
+.ventana{
+    border: solid 2px;
+    width: 80%;
+    text-align: center;
+    padding-bottom:1rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+.vetanaAbajo{
+    border: solid 1px;
+    padding: 1rem;
+    background-color: rgba(133, 123, 215, 9 );
+    width: 90%;
+    display: flex;
+    position: relative;
+
+
+}footer{
+    background-color: rgba(23,143,215,6);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+@media(max-width:510px){
+    body{
+        background-color: black;
+
+    }
+    .container{
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    .ventana{
+
+        border-radius: 5px;
+    }
+    .vetanaAbajo{
+    
+        width: 90%;
+        border-radius: 5px;
+        
+    }
+    .harina{
+        text-align-last: center;
+        
+    }
+    .ar{
+        width:56%;
+    }
+}
+@media (min-width: 550px){
+    body{
+        background-color: aqua;
+
+    }
+    .container{
+        width: 98%;
+        margin: 0 auto;
+        position: fixed
+    }
+    
+    }
+    .ventana{
+        margin-left: 2.3rem;
+    }
+
+@media (min-width: 700px){
+    body{
+        background-color: rgb(60, 104, 104);
+
+    }
+    .container{
+    
+        margin-left: 40px;
+    }
+    .vetanaAbajo{
+    margin-left: 0.5rem;
+    }
+    .ventana{
+        margin-left: 2.5rem;
+    }
+    .ar{
+        margin-left: 90px;
+        
+
+    }
+    .harinas{
+        margin-left: 200px;
+    }
+}
+@media (min-width: 1020px){
+    body{
+        background-color: rgb(192, 209, 34);
+
+    }
+    .container{
+        max-width: 100;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 900px){
+    body{
+        background-color: blueviolet;
+    }
+    .container{
+        margin-left: 25px;
+        
+}
+.harinas{
+   
+  
+    margin-left: 370px;
+    
+}
+.ar{
+    margin-left: 190px;
+}
+}
