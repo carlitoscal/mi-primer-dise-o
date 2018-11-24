@@ -42,8 +42,9 @@ input
     width: 50px;
     margin-top: 15px;
     margin-left: 7px;
-    border-radius: 50%;
-    
+    border-radius: 40%;
+    font-size: 1.2rem;
+    text-align: center;
 }
 .sal{
  
